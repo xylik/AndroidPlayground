@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_key_value_backup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fer.com.androidplayground.keyValueBackup.KeyValueBackupActivity">
+
+    <Button
+        android:id="@+id/requestBackupBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request backup"/>
+
+    <Button android:id="@+id/requestRestoreBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/requestBackupBTN"
+            android:layout_marginTop="20dp"
+            android:text="Request restore"/>
+
+    <Button android:id="@+id/checkUserIdBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/requestRestoreBTN"
+            android:text="Check userId"/>
+
+    <Button android:id="@+id/generateUserIdBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/checkUserIdBTN"
+            android:text="Generate userId"/>
+
+    <Button android:id="@+id/checkTextFileBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/generateUserIdBTN"
+            android:text="Check TextFile"/>
+
+    <Button android:id="@+id/generateTextFileBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/checkTextFileBTN"
+            android:text="Generate TextFile"/>
+</RelativeLayout>
