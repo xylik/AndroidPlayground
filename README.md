@@ -14,3 +14,4 @@ DEBUG_SHA1=11:11:11:11:11:11:11:11:11:11:11:11:11:11:11:11:11:11:11:11
 
 Further on create new facebook project through facebook developer console and replace **facebook_app_id** key in strings.xml with your application id.
 For Firebase and Facebook analytics to work add **SHA1** of your debug key to project key signatures.  
+For backup api to work replace **com.google.android.backup.api_key** with your backup api key in AndroidManifest.xml
